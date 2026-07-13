@@ -1,4 +1,4 @@
-fservices:
+services:
   db:
     image: postgres:latest
     container_name: postgres-db
@@ -10,4 +10,4 @@ fservices:
       - postgres_data:/var/lib/postgresql/data
 
 volumes:
-  postgres_data:/var/lib/postgresql/data
+  postgres_data:
